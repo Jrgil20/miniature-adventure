@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="Logo">JR</a>
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu" class="icon-menu"><span>.</span></label>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Portafolio</a></li>
+    <header class="header">
+        <a href="#" class="logo">JR</a>
+        <input type="checkbox" id="side-menu" class="side-menu">
+        <label for="side-menu" class="hamb"><span class="hamb-line">.</span></label>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Proyecto</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
@@ -31,9 +30,16 @@
             </div>
         </section>
 
-        <section id="bienvenidos">
-            <h2>Bienvenidos a mi pagina web</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, corporis?</p>
+        <section id="sobre-mi">
+            <div class="contenedor">
+                <h3>Sobre mí</h3>
+                <div class="contenedor-sobre-mi">
+                    <img src="img/foto.jpg" alt="">
+                    <div class="texto">
+                        <p>Soy estudiante y me apasiona el mundo de la programación. Estoy constantemente aprendiendo y mejorando mis habilidades para convertirme en un desarrollador de software excepcional. Me encanta enfrentar nuevos desafíos y explorar nuevas tecnologías. ¡Estoy emocionado de compartir mi conocimiento y contribuir al mundo de la programación!</p>
+                    </div>
+                </div>
+            </div>
         </section>
 </body>
 </html>
