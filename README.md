@@ -1,2 +1,2 @@
 # miniature-adventure
-practicas web
+practicas web & simple personal website
